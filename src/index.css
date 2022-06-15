@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  /* ### Primary */
+  /* (CTA text) */
+  --Light-red: hsl(356, 100%, 66%);
+  /* (CTA hover background) */
+  --Very-light-red: hsl(355, 100%, 74%);
+  /* (headings) */
+  --Very-dark-blue: hsl(208, 49%, 24%);
+  
+  /* ### Neutral */
+  /* (text) */
+  --White: hsl(0, 0%, 100%);
+  /* (footer text) */
+  --Grayish-blue: hsl(240, 2%, 79%);
+  /* (body copy) */
+  --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+  /* (footer background) */
+  --Very-dark-black-blue: hsl(240, 10%, 16%);
+  
+  /* ### Gradient */
+  /* Background gradient - Intro/CTA mobile nav: */
+  --Very-light-red-gradient: hsl(13, 100%, 72%);
+  --Light-red-gradient: hsl(353, 100%, 62%);
+  
+  /* Background gradient - body: */
+  --Very-dark-gray-blue: hsl(237, 17%, 21%);
+  --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-image: url("../design/mobile-design.jpg");
 }
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Overpass";
+  font-weight: 300;
+  src: url("./fonts/Overpass-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Overpass";
+  font-weight: 600;
+  src: url("./fonts/Overpass-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  src: url("./fonts/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 500;
+  src: url("./fonts/Ubuntu-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  src: url("./fonts/Ubuntu-Bold.ttf") format("truetype");
+}
+
+button {
+  border: none;
+  background: none;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
