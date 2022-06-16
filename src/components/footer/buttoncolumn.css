@@ -1,0 +1,23 @@
+.footer__button-column {
+    margin-bottom: 2.55em;
+}
+
+.footer__top-button {
+    color: var(--White);
+    font-family: "Ubuntu";
+    font-size: 1.13em;
+    font-weight: 500;
+    margin-bottom: 1.81em;
+}
+
+.footer__button-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__button-list-item {
+    color: var(--Grayish-blue);
+    font-size: 1.15em;
+    margin-bottom: 0.66em;
+    font-family: "Ubuntu";
+}

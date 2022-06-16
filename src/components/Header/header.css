@@ -1,12 +1,11 @@
 .header {
     background-image: url("../../images/bg-pattern-intro-mobile.svg"), linear-gradient(135deg, var(--Very-light-red-gradient), var(--Light-red-gradient));
-    background-position: 36% 33%;
+    background-position: 35.2% 34%;
     background-repeat: no-repeat;
-    padding: 3.5em 1.5em;
+    padding: 3.6em 1.5em 3.5em 1.5em;
     padding-bottom: 9.8em;
     color: var(--White);
     border-bottom-left-radius: 102px
-
     /* font-family: "Ubuntu"; */
 }
 
@@ -38,14 +37,16 @@
     align-items: center;
     width: 100%;
     padding: 0 0.15em;
+    max-width: 375px;
 }
 
 .header__button {
-    /* flex: 1; */
     padding: 0.9em 0;
     font-size: 1em;
     width: 8.55em;
     border-radius: 24px;
+    font-family: "Ubuntu";
+    font-weight: 700;
 }
 
 .header__button:first-child {

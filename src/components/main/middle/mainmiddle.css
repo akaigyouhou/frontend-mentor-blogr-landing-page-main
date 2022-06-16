@@ -1,0 +1,19 @@
+.main-middle {
+    background-image: url("../../../images/bg-pattern-circles.svg"), linear-gradient(var(--Very-dark-gray-blue), var(--Very-dark-desaturated-blue));
+    background-repeat: no-repeat;
+    background-size: 600px, 100%;
+    background-position: 50% -235px, 0 0;
+    padding: 14.1em 1.5em 7.1em;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    position: relative;
+}
+
+.main-middle__illustration {
+    position: absolute;
+    /* height: 400px; */
+    width: 380px;
+    top: 0;
+    transform: translate(-50.5%, -46.5%);
+    left: 50%;
+}

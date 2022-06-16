@@ -1,0 +1,19 @@
+.top-article {
+    margin-left: 0.5em;
+    margin-bottom: 2.7em;
+}
+
+.top-article__title {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+    line-height: 1.16em
+}
+
+.top-article__title-1 {
+    margin-bottom: 0.8em;
+}
+
+.top-article__paragraph {
+    font-size: 1.07em;
+    line-height: 1.64em;
+}

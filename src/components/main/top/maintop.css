@@ -1,0 +1,14 @@
+.main-top {
+    padding: 6.4em 1.5em;
+    text-align: center;
+    background-image: url("../../../images/illustration-editor-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 17.9%;
+    margin-bottom: 7.5em;
+}
+
+.main-top__title {
+    font-size: 1.64em;
+    font-weight: 600;
+    margin-bottom: 16.2em;
+}

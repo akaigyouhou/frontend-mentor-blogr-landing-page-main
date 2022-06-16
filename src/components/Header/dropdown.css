@@ -1,0 +1,27 @@
+.drop-down {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    background-color: var(--Grayish-blue);
+    margin-top: 1.3em;
+    /* margin-right: 0.2em; */
+}
+
+.drop-down__item {
+    font-size: 1.01em;
+    color: var(--Very-dark-blue);
+    margin-top: 0.61em;
+    margin-bottom: 0.61em;
+    font-family: "Overpass";
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.drop-down__item:first-child {
+    margin-top: 1.7em;
+}
+.drop-down__item:last-child {
+    margin-bottom: 1.4em;
+}

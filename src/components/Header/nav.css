@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 7em;
+    margin-bottom: 6.9em;
+    position: relative;
 }
 
 .nav__logo {

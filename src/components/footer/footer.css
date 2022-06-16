@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--Very-dark-black-blue);
+    text-align: center;
+    padding: 4.8em 1em 1.8em;
+    border-top-right-radius: 100px;
+}
+
+.footer__logo {
+    margin-bottom: 4.5em;
+}
