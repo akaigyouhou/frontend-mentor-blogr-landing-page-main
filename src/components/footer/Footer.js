@@ -23,7 +23,7 @@ const Footer = () => {
             <img className="footer__logo" src={logo} alt="blogr" />
             <div className="footer__button-container">
                 {buttonColumns.map((buttonColumn, index) => (
-                    <ButtonColumn top={buttonColumn.top} list={buttonColumn.list} />
+                    <ButtonColumn key={buttonColumn.top} top={buttonColumn.top} list={buttonColumn.list} />
                 ))}
             </div>
         </footer>

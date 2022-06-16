@@ -17,3 +17,18 @@
     transform: translate(-50.5%, -46.5%);
     left: 50%;
 }
+
+@media (min-width: 900px) {
+    .main-middle {
+        background-image: url("../../../images/bg-pattern-circles.svg"), linear-gradient(to right, var(--Very-dark-gray-blue), var(--Very-dark-desaturated-blue));
+        padding: 7.2em 10em 6.5em 45.9em;
+        background-size: 70.6%, auto;
+        background-position: -50.8% 82.4%, 0 0;
+    }
+    .main-middle__illustration {
+        width: 553px;
+        top: -69px;
+        left: 124px;
+        transform: none;
+    }
+}

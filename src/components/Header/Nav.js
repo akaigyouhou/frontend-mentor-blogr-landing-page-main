@@ -23,7 +23,7 @@ const Nav = () => {
             <button><img className="menu-close" src={close} alt="close" onClick={handleClose} /></button> :
             <button><img className="menu-open" src={hamburger} alt="open" onClick={handleOpen} /></button>
             }
-            {open && <Menu />}
+            <Menu open={open} />
         </nav>
     );
 }

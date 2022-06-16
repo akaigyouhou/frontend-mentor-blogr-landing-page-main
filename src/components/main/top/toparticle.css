@@ -17,3 +17,18 @@
     font-size: 1.07em;
     line-height: 1.64em;
 }
+
+@media (min-width: 900px) {
+    .top-article {
+        text-align: start;
+        width: 50%;
+        padding-right: 1.6em;
+        margin-bottom: 4.8em;
+    }
+    .top-article__title {
+        margin-bottom: 0.93em;
+    }
+    .top-article__paragraph {
+        font-size: 1.07em;
+    }
+}

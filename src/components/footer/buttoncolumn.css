@@ -21,3 +21,24 @@
     margin-bottom: 0.66em;
     font-family: "Ubuntu";
 }
+
+@media (min-width: 900px) {
+    .footer__button-column {
+        margin-top: 0.4em;
+        margin-right: 12.5em;
+    }
+    .footer__button-column:nth-child(2) {
+        margin-right: 13.6em;
+    }
+    .footer__top-button {
+        font-size: 0.95em;
+        margin-bottom: 2.45em;
+    }
+    .footer__button-list {
+        align-items: flex-start;
+    }
+    .footer__button-list-item {
+        font-size: 0.95em;
+        margin-bottom: 0.95em;
+    }
+}

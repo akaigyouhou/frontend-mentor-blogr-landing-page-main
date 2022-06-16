@@ -4,6 +4,7 @@ import MiddleArticle from './MiddleArticle';
 import phone from '../../../images/illustration-phones.svg';
 
 const MainMiddle = () => {
+
     return (
         <div className="main-middle">
             <img className="main-middle__illustration" src={phone} alt="phone" />

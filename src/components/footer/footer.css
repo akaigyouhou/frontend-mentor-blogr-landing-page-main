@@ -8,3 +8,21 @@
 .footer__logo {
     margin-bottom: 4.5em;
 }
+
+@media (min-width: 900px) {
+    .footer {
+        text-align: start;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 4.4em 21.5em 1.4em 10.3em;
+    }
+    .footer__logo {
+        margin-bottom: 0;
+    }
+    .footer__button-container {
+        display: flex;
+        width: 100%;
+        margin-left: 11.5em;
+    }
+}

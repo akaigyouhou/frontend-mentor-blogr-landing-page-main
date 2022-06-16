@@ -6,10 +6,7 @@
     padding-bottom: 9.8em;
     color: var(--White);
     border-bottom-left-radius: 102px
-    /* font-family: "Ubuntu"; */
 }
-
-
 
 .header__section {
     display: flex;
@@ -58,4 +55,28 @@
     border: 1px solid var(--White);
     padding: 0.85em 0 0.8em;
     color: var(--White);
+}
+
+@media (min-width: 900px) {
+    .header {
+        padding: 3.75em 10em 9.7em 10.4em;
+        background: none;
+        background-image: url("../../images/bg-pattern-intro-desktop.svg"), linear-gradient(to right, var(--Very-light-red-gradient), var(--Light-red-gradient));
+        background-repeat: no-repeat;
+        background-position: 25.3% 52.2%, 0% 0%;
+    }
+    .header__title {
+        font-size: 3.74em;
+        margin-right: 0.1em;
+        margin-bottom: 0.2em;
+    }
+    .header__paragraph {
+        font-size: 1.25em;
+        margin-right: 0.2em;
+        margin-bottom: 2.3em;
+    }
+    .header__button-container {
+        max-width: 294px;
+        margin-right: 0.3em;
+    }
 }

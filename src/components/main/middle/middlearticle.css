@@ -13,3 +13,15 @@
     font-size: 17.2px;
     line-height: 1.63em;
 }
+
+@media (min-width: 900px) {
+    .middle-article {
+        text-align: start;
+    }
+    .middle-article__title {
+        margin-bottom: 0.5em;
+    }
+    .middle-article__paragraph {
+        font-size: 1.07em;
+    }
+}
