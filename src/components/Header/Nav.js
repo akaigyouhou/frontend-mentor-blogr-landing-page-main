@@ -20,8 +20,8 @@ const Nav = () => {
         <nav className="nav">
             <img className="nav__logo" src={logo} alt="blogr" />
             {open ? 
-            <button><img className="menu-close" src={close} alt="close" onClick={handleClose} /></button> :
-            <button><img className="menu-open" src={hamburger} alt="open" onClick={handleOpen} /></button>
+            <button aria-label="menu-close"><img className="menu-close" src={close} alt="close" onClick={handleClose} /></button> :
+            <button aria-label="menu-open"><img className="menu-open" src={hamburger} alt="open" onClick={handleOpen} /></button>
             }
             <Menu open={open} />
         </nav>
