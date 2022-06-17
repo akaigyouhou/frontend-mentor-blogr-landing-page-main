@@ -41,4 +41,7 @@
         font-size: 0.95em;
         margin-bottom: 0.95em;
     }
+    .footer__button-list-item:hover {
+        text-decoration: underline 2.5px;
+    }
 }

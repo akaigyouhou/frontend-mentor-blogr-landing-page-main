@@ -5,10 +5,17 @@ import arrowLight from '../../images/icon-arrow-light.svg';
 import DropDown from './DropDown';
 
 const Menu = ({open}) => {
-    const [productOpen, setProductOpen] = useState(false);
-    const [companyOpen, setCompanyOpen] = useState(false);
-    const [connectOpen, setConnectOpen] = useState(false);
-    const [width, setWidth] = useState("");
+    const [openNumber, setOpenNumber] = useState(null);
+
+    // const [productOpen, setProductOpen] = useState(false);
+    // const [companyOpen, setCompanyOpen] = useState(false);
+    // const [connectOpen, setConnectOpen] = useState(false);
+    const [width, setWidth] = useState(window.innerWidth);
+    console.log(width);
+
+    let productOpen = (openNumber === 0 ? true : false);
+    let companyOpen = (openNumber === 1 ? true : false);
+    let connectOpen = (openNumber === 2 ? true : false);
 
     const productContents = ["Overview", "Pricing", "Marketplace", "Features", "Integrations"];
     const companyContents = ["About", "Team", "Blog", "Careers", "Integrations"];
@@ -33,15 +40,15 @@ const Menu = ({open}) => {
     }, []);
 
     const handleToggleProduct = () => {
-        setProductOpen(e => !e);
+        openNumber === 0 ? setOpenNumber(null) : setOpenNumber(0);
     }
 
     const handleToggleCompany = () => {
-        setCompanyOpen(e => !e);
+        openNumber === 1 ? setOpenNumber(null) : setOpenNumber(1);
     }
 
     const handleToggleConnect = () => {
-        setConnectOpen(e => !e);
+        openNumber === 2 ? setOpenNumber(null) : setOpenNumber(2);
     }
 
     return (
@@ -49,7 +56,7 @@ const Menu = ({open}) => {
             <div className="top-menu">
                 <div className="button-container">
                     <div className="button-with-arrow">
-                        <button className="top-button" onClick={handleToggleProduct}>Product</button>
+                        <button className={"top-button" + (productOpen ? " top-button-open" : "")} onClick={handleToggleProduct}>Product</button>
                         <img className={"arrow" + (productOpen ? " arrow-open" : "")} src={arrowUrl} alt="arrow" />
                     </div>
                     {productOpen && (
@@ -58,7 +65,7 @@ const Menu = ({open}) => {
                 </div>
                 <div className="button-container">
                     <div className="button-with-arrow">
-                        <button className="top-button" onClick={handleToggleCompany}>Company</button>
+                        <button className={"top-button" + (companyOpen ? " top-button-open" : "")} onClick={handleToggleCompany}>Company</button>
                         <img className={"arrow" + (companyOpen ? " arrow-open" : "")} src={arrowUrl} alt="arrow" />
                     </div>
                     {companyOpen && (
@@ -67,7 +74,7 @@ const Menu = ({open}) => {
                 </div>
                 <div className="button-container">
                     <div className="button-with-arrow">
-                        <button className="top-button" onClick={handleToggleConnect}>Connect</button>
+                        <button className={"top-button" + (connectOpen ? " top-button-open" : "")} onClick={handleToggleConnect}>Connect</button>
                         <img className={"arrow" + (connectOpen ? " arrow-open" : "")} src={arrowUrl} alt="arrow" />
                     </div>
                     {connectOpen && (

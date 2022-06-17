@@ -12,6 +12,7 @@
 .middle-article__paragraph {
     font-size: 17.2px;
     line-height: 1.63em;
+    filter: opacity(80%);
 }
 
 @media (min-width: 900px) {

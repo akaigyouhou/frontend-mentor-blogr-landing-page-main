@@ -9,6 +9,7 @@
     text-align: center;
     padding: 0em 1.55em;
     box-shadow: 0 20px 20px -5px var(--Grayish-blue);
+    z-index: 1;
 }
 
 .menu-show {
@@ -40,6 +41,9 @@
     font-weight: 600;
     margin-right: 0.4em;
 }
+.top-button-open {
+    filter: opacity(80%);
+}
 
 .arrow {
     transition: transform 0.2s;
@@ -67,7 +71,7 @@
     font-family: "Overpass";
     font-weight: 600;
     font-size: 1.05em;
-    background-image: linear-gradient(var(--Very-light-red), var(--Light-red));
+    background-image: linear-gradient(to right, var(--Very-light-red-gradient), var(--Light-red-gradient));
     width: 137px;
     padding-top: 0.85em;
     padding-bottom: 0.7em;
@@ -105,6 +109,12 @@
         color: var(--White);
         font-family: "Ubuntu";
         font-weight: 500;
+        filter: opacity(80%);
+    }
+    .top-button:hover {
+        /* font-weight: 700; */
+        text-decoration: underline;
+        filter: none;
     }
     .bottom-menu {
         flex-direction: row;
@@ -118,6 +128,10 @@
         color: var(--White);
         font-family: "Ubuntu";
         font-weight: 500;
+        filter: opacity(80%);
+    }
+    .login-button {
+        filter: none;
     }
     .sign-up-button {
         background: none;
@@ -127,5 +141,10 @@
         font-weight: 500;
         padding-top: 0.75em;
         padding-bottom: 0.8em;
+        transition: all .2s;
+    }
+    .sign-up-button:hover {
+        color: var(--White);
+        background-color: var(--Very-light-red);
     }
 }

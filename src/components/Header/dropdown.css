@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     /* justify-content: space-evenly; */
-    background-color: var(--Grayish-blue);
+    background-color: hsl(240, 7%, 94%);
     margin-top: 1.3em;
     /* margin-right: 0.2em; */
 }
@@ -10,6 +10,7 @@
 .drop-down__item {
     font-size: 1.01em;
     color: var(--Very-dark-blue);
+    filter: opacity(80%);
     margin-top: 0.61em;
     margin-bottom: 0.61em;
     font-family: "Overpass";
@@ -29,5 +30,34 @@
 @media (min-width: 900px) {
     .drop-down {
         position: absolute;
+        top: 1.55em;
+        left: -1.5em;
+        padding: 2em 3.95em 2em 1.5em;
+        border-radius: 6px;
+        background-color: var(--White);
+    }
+    .drop-down__item:first-child {
+        margin-top: 0;
+    }
+    .drop-down__item:last-child {
+        margin-bottom: 0;
+    }
+    .drop-down__item {
+        margin: 0;
+        text-align: start;
+        font-size: 0.94em;
+        font-family: "Ubuntu";
+        margin-bottom: 0.97em;
+        margin-right: auto;
+        font-weight: 400;
+        transition: all .2s;
+        /* padding-left: 1.5em; */
+    }
+    .drop-down__item:hover {
+        font-weight: 700;
+        /* position: relative; */
+    }
+    .drop-down__item:last-child:hover {
+        margin-bottom: 0;
     }
 }
