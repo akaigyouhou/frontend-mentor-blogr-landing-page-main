@@ -11,7 +11,6 @@ const Menu = ({open}) => {
     // const [companyOpen, setCompanyOpen] = useState(false);
     // const [connectOpen, setConnectOpen] = useState(false);
     const [width, setWidth] = useState(window.innerWidth);
-    console.log(width);
 
     let productOpen = (openNumber === 0 ? true : false);
     let companyOpen = (openNumber === 1 ? true : false);
