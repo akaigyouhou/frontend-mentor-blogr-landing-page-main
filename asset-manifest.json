@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.283bbf1c.css",
+    "main.js": "./static/js/main.353491f4.js",
+    "static/media/Ubuntu-Regular.ttf": "./static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/Ubuntu-Medium.ttf": "./static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
+    "static/media/Ubuntu-Bold.ttf": "./static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/Overpass-SemiBold.ttf": "./static/media/Overpass-SemiBold.cac7de8097247af9345f.ttf",
+    "static/media/Overpass-Light.ttf": "./static/media/Overpass-Light.b641f8e22651db96492a.ttf",
+    "static/media/illustration-phones.svg": "./static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
+    "static/media/logo.svg": "./static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
+    "static/media/illustration-laptop-mobile.svg": "./static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa.svg",
+    "static/media/illustration-laptop-desktop.svg": "./static/media/illustration-laptop-desktop.799209c2628b1f244e15.svg",
+    "static/media/illustration-editor-desktop.svg": "./static/media/illustration-editor-desktop.c6c8050aa4dcf0c64b44.svg",
+    "static/media/illustration-editor-mobile.svg": "./static/media/illustration-editor-mobile.b9c7941a96d06832fa27.svg",
+    "static/media/bg-pattern-intro-mobile.svg": "./static/media/bg-pattern-intro-mobile.3d70cc0d02948cb77851.svg",
+    "static/media/bg-pattern-intro-desktop.svg": "./static/media/bg-pattern-intro-desktop.bf6b3e1b727eabeffdc5.svg",
+    "index.html": "./index.html",
+    "static/media/bg-pattern-circles.svg": "./static/media/bg-pattern-circles.bae804b8cc1519f26c94.svg",
+    "static/media/icon-close.svg": "./static/media/icon-close.c6580312401807bc9f98867a80e2bc37.svg",
+    "static/media/icon-hamburger.svg": "./static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
+    "static/media/icon-arrow-light.svg": "./static/media/icon-arrow-light.9ba0f38e6df41815773e653d50260ecd.svg",
+    "static/media/icon-arrow-dark.svg": "./static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
+    "main.283bbf1c.css.map": "./static/css/main.283bbf1c.css.map",
+    "main.353491f4.js.map": "./static/js/main.353491f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283bbf1c.css",
+    "static/js/main.353491f4.js"
+  ]
+}
